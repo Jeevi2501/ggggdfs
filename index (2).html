@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Discoveries Timeline</title>
+
+    <!-- Include Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- AOS (Animate On Scroll) CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("https://assets.onecompiler.app/42uutqmvw/42uutpw3r/background.avif") no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #FFD700; /* Change text color on hover */
+            transform: scale(1.1); /* Hover animation */
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #333;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        ul {
+            line-height: 1.6;
+        }
+
+        i {
+            margin-right: 10px;
+            color: #444;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header data-aos="fade-up">
+        <h1><i class="fas fa-flask"></i> Timeline of Scientific Discoveries</h1>
+        <img src="https://assets.onecompiler.app/42uutqmvw/42uutpw3r/blackhole.jpg" alt="Science Discoveries" width="100">
+    </header>
+
+    <nav data-aos="fade-down">
+        <a href="#ancient"><i class="fas fa-history"></i> Ancient Discoveries</a>
+        <a href="#modern"><i class="fas fa-lightbulb"></i> Modern Discoveries</a>
+        <a href="#recent"><i class="fas fa-rocket"></i> Recent Discoveries</a>
+    </nav>
+
+    <section id="ancient" data-aos="fade-up">
+        <h2><i class="fas fa-landmark"></i> Ancient Discoveries</h2>
+        <img src="https://assets.onecompiler.app/42uutqmvw/42uutpw3r/wheels.jpg" alt="Invention of the Wheel" width="100" height="100">
+        <ul>
+            <li><i class="fas fa-cog"></i><strong>Wheel (around 3500 BC)</strong> - Invented in Mesopotamia, it transformed transportation and engineering.</li>
+            <li><i class="fas fa-fire"></i><strong>Fire (Prehistoric)</strong> - Early humans discovered how to control fire, leading to cooking, warmth, and protection.</li>
+            <li><i class="fas fa-calculator"></i><strong>Pythagoras' Theorem (around 500 BC)</strong> - Ancient Greeks discovered fundamental principles in mathematics.</li>
+            <li><i class="fas fa-globe"></i><strong>Heliocentric Theory (1543)</strong> - Nicolaus Copernicus proposed that the Earth revolves around the Sun.</li>
+        </ul>
+    </section>
+
+    <section id="modern" data-aos="fade-up" data-aos-delay="200">
+        <h2><i class="fas fa-lightbulb"></i> Modern Discoveries (16th to 20th Century)</h2>
+        <img src="https://assets.onecompiler.app/42uutqmvw/42uutpw3r/penicilin.jpg" alt="Penicillin Discovery" width="100" height="100">
+        <ul>
+            <li><i class="fas fa-apple-alt"></i><strong>Gravity (1687)</strong> - Isaac Newton formulated the law of universal gravitation, explaining the force of attraction between masses.</li>
+            <li><i class="fas fa-bolt"></i><strong>Electricity (18th Century)</strong> - Benjamin Franklin and others made foundational discoveries about electricity.</li>
+            <li><i class="fas fa-bacteria"></i><strong>Germ Theory (1861)</strong> - Louis Pasteur discovered that microorganisms cause disease, revolutionizing medicine.</li>
+            <li><i class="fas fa-pills"></i><strong>Penicillin (1928)</strong> - Alexander Fleming discovered penicillin, leading to the development of antibiotics.</li>
+            <li><i class="fas fa-dna"></i><strong>DNA Structure (1953)</strong> - James Watson, Francis Crick, and Rosalind Franklin discovered the double helix structure of DNA.</li>
+        </ul>
+    </section>
+
+    <section id="recent" data-aos="fade-up" data-aos-delay="400">
+        <h2><i class="fas fa-microscope"></i> Recent Discoveries (21st Century)</h2>
+        <img src="https://assets.onecompiler.app/42uutqmvw/42uutpw3r/blackhole.jpg" alt="Black Hole First Image" width="100" height="100">
+        <ul>
+            <li><i class="fas fa-atom"></i><strong>Higgs Boson (2012)</strong> - Scientists at CERN discovered the Higgs boson particle, which helps explain why particles have mass.</li>
+            <li><i class="fas fa-wave-square"></i><strong>Gravitational Waves (2015)</strong> - LIGO detected gravitational waves, confirming a major prediction of Einstein's theory of relativity.</li>
+            <li><i class="fas fa-edit"></i><strong>CRISPR Gene Editing (2012)</strong> - This revolutionary tool allows scientists to edit genes with unprecedented precision.</li>
+            <li><i class="fas fa-camera"></i><strong>First Image of a Black Hole (2019)</strong> - The Event Horizon Telescope captured the first image of a black hole.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Scientific Discoveries. All rights reserved.</p>
+    </footer>
+
+    <!-- AOS (Animate On Scroll) JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Animation duration in milliseconds
+            once: true, // Animation will only happen once when you scroll into view
+            offset: 100, // How early the animation triggers before the element comes into view
+        });
+    </script>
+
+</body>
+</html>
